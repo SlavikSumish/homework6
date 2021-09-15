@@ -767,6 +767,12 @@ ul {
   border-color: var(--accent-color);
 }
 
+.input-wrap :focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+
 .check-label {
   display: flex;
   align-items: center;
