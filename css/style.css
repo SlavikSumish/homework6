@@ -762,22 +762,9 @@ ul {
   letter-spacing: 1%;
   color: rgba(117, 117, 117, 0.5);
 }
-
-.input-wrap :hover use,
-.input-wrap :focus use,
-.input-wrap :hover,
 .input-wrap :focus {
-  fill: var(--accent-color);
-  color: var(--accent-color);
-}
-
-.modal-form-input :focus {
-  outline: none !important;
-
-  border: 3px solid blue;
-  box-shadow: 1px 1px 2px 0 blue;
-
-  border: 2px solid #2196f3;
+  outline: none;
+  border-color: var(--accent-color);
 }
 
 .check-label {
@@ -795,6 +782,11 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.modal-form-field :focus {
+  outline: none;
+  border-color: var(--accent-color);
 }
 
 .checkbox:checked + .check-label > .icon-check {
