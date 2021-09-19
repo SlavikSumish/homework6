@@ -692,6 +692,11 @@ ul {
   position: absolute;
   right: 8px;
   top: 8px;
+  fill: var(--secondary-title-color);
+}
+
+.btn-open:hover {
+  fill: var(--accent-color);
 }
 
 .backdrop.is-hidden {
